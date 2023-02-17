@@ -1,0 +1,178 @@
+/* Fichier style CSS pour mon site web */
+header {
+	border: 1px rgb(27, 79, 114) solid;
+	border-radius: 15px;
+	background-color: rgb(27, 79, 114);
+	color: white;
+	text-align: center;
+	margin: 10px;
+}
+
+nav {
+	border: 1px rgb(27, 79, 114) solid;
+	border-radius: 15px;
+	background-color: rgb(27, 79, 114);
+	color: white;
+	text-align: left;
+	margin: 10px;
+	padding: 5px 25px;
+}
+
+body {
+	background-color: rgb(232, 248, 245); 	/* Vert très clair */
+	color: rgb(27, 79, 114); 				/* Bleu foncé */
+	font-family: "Arial", sans-serif;		/* Arial, sans sérif */
+	margin: 10px;							/* Marge extra block */
+}
+
+footer {
+	border: 1px rgb(27, 79, 114) solid;
+	border-radius: 15px;
+	background-color: rgb(27, 79, 114);
+	color: white;
+	text-align: center;
+	margin: 10px;
+}
+
+.class_baniere{
+	background-image: url('Images/img_medium_cieletoile.jpg'); /* Insertion de l'image en baniere */
+	background-attachment: fixed; 	/* Rend l'image fixe. Le texte defile dessus. */
+	background-size: cover;			/* Garde l'image à l'échelle, en la rognant si besoin */
+	color: rgb(255, 255, 255); 		/* Blanc */
+	padding: 250px 50px; 			/* Marge intra block */
+	text-align: center; 			/* Centrer */
+	border-radius: 15px;			/* Arrondir les angles */
+	margin: 10px;					/* Marge extra block */
+}
+
+.class_p_alt {
+	font-size: 1.5em;
+	font-family: "Arial", sans-serif;	/* Arial, sans sérif */
+}
+
+a:hover { 						/* S'active par survol */
+	font-size: 1.1em;			/* Agrandir taille du text par rapport à la taille normale */
+	color: red;					/* Rouge */
+}
+
+a:active{ 									/* S'active sur clic down */
+	background-color: rgb(232, 248, 245); 	/* Vert très clair */
+}
+
+a:focus{ 									/* S'active sur Tab */
+	background-color: rgb(232, 248, 245); 	/* Vert très clair */
+}
+
+.class_partie {
+	border: 3px solid green;	/* Bordure de 3 pixels, continue, verte */
+	border-radius: 15px;		/* Arrondir les angles */
+	box-shadow: 5px 5px 10px rgb(100, 100, 100); /* Ombres */
+	background-color: white;	/* Blanc */
+	padding: 5px 25px;			/* Marge intra block */
+	margin-top: 5px;			/* Marge extra block */
+	margin-bottom: 5px;			/* Marge extra block */
+	margin-right: 10px;			/* Marge extra block */
+	margin-left: 10px;			/* Marge extra block */
+	max-width: 500px;			/* Largeur maximun du cadre */
+}
+
+.class_image {
+	border-radius: 15px;		/* Arrondir les angles */
+}
+
+.class_conteneur {
+	display: flex;			/* Passage en mode flex (container) */
+	flex-direction: row;	/* Alligner les divs en lignes ou colonne */
+	flex-wrap: Wrap;		/* Nowrap: garde tous les items sur la meme ligne coute que coute. Wrap: Passe a la ligne */
+	justify-content: space-around;	/* Justifier les items */
+}
+
+.class_grid {
+	display: grid;
+	gap: 2px;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 75px 100px 50px 75px;
+}
+
+.class_boite1{
+	border: 2px solid black;
+	border-radius: 5px;
+	grid-column: 1 / 4;
+	background-color: green;
+	color: white;
+}
+
+.class_boite2 {
+	border: 2px solid black;
+	border-radius: 5px;
+	grid-row: 2 / 4;
+	background-color: orange;
+	color: black;
+}
+
+.class_boite3 {
+	border: 2px solid black;
+	border-radius: 5px; 
+	background-color: cyan;
+	color: black;
+}
+
+.class_boite4 {
+	border: 2px solid black;
+	border-radius: 5px; 
+	background-color: red;
+	color: black;
+}
+
+.class_boite5 {
+	border: 2px solid black;
+	border-radius: 5px;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	background-color: blue;
+	color: white;
+}
+
+.class_boite6 {
+	border: 2px solid black;
+	border-radius: 5px;
+	grid-column-start: 1;
+	grid-column-end: 3;	
+	background-color: brown;
+	color: white;
+}
+
+.class_position {
+	position: relative;
+	height: 250px;
+	width: 200px;
+	
+}
+
+.class_boite_pos1 {
+	position: absolute;
+	top: 50px;
+	border: 14px solid red;
+	border-radius: 15px;
+	height: 100px;
+	width: 100px;
+}
+
+.class_boite_pos2 {
+	position: absolute;
+	left: 65px;
+	border: 5px dashed black;
+	border-radius: 7px;
+	height: 90px;
+	width: 110px;
+}
+
+.class_boite_pos3 {
+	position: absolute;
+	top: 90px;
+	left: 90px;
+	border: 2px solid black;
+	border-radius: 5px;
+	height: 60px;
+	width: 120px;
+}
