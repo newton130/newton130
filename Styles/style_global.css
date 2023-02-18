@@ -1,0 +1,7 @@
+/* Fichier style CSS pour mon site web */
+body {
+	font-family: "Arial", sans-serif;
+	font-size: 1.6em;
+	background-color: rgb(100, 160, 120);
+	margin: 30px;
+}
