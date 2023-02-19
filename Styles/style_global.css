@@ -2,6 +2,10 @@
 body {
 	font-family: "Arial", sans-serif;
 	font-size: 1.6em;
-	background-color: rgb(100, 160, 120);
+	background-color: rgb(230, 230, 240);
 	margin: 30px;
+}
+
+footer p {
+	font-size: 0.5em;
 }
