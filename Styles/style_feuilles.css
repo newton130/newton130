@@ -1,60 +1,78 @@
 
 .class_table {
 	background-image: url("../Images/fond_bois2_moyen.jpg");
-	/* border-radius: 100px; */
 	padding-top: 0px;
 	padding-bottom: 80px;
 	margin-left: -40px;
 	margin-right: -40px;
-	border: 1px solid rgb(20, 19, 15);
+	border: 1px solid rgb(93, 44, 30);
 	display: flex;
 	justify-content: center;
 }
 
 .class_tas_feuilles {
-	display: flex;			/* Passage en mode flex (container) */
-	flex-direction: row;	/* Alligner les divs en lignes ou colonne */
+	display: flex;
+	flex-direction: row;
 	margin-left: 0px;
 	margin-top: 100px;
 }
 
 .class_feuille1, .class_feuille2, .class_feuille3, .class_feuille4 {
-	color: rgb(21, 67, 96);
+	
 	border: 5px solid rgb(234, 234, 234);
-	width: 265px;
-	height: 446px;
+	background-image: url("../Images/cahier.jpg");
+	width: 207px;
+	height: 357px;
 	padding-left: 30px;
-	background-image: url("../Images/cahier_medium.jpg");
 	border-radius: 5px;
 	box-shadow: 7px 7px 7px rgb(50, 50, 50);
+	color: rgb(21, 67, 96);
+}
+
+.class_feuille5 {
+	
+	border: 5px solid rgb(234, 234, 234);
+	background-image: url("../Images/CVmini.jpg");
+	width: 207px;
+	height: 357px;
+	padding-left: 30px;
+	border-radius: 5px;
+	box-shadow: 7px 7px 7px rgb(50, 50, 50);
+	color: rgb(21, 67, 96);
 }
 
 .class_feuille1 {
 	transform: skewX(10deg) skewY(-10deg);
 	margin-left: 0px;
-	margin-top: 75px;
+	margin-top: 55px;
 }
 
 .class_feuille2 {
 	transform: skewX(5deg) skewY(-5deg);
-	margin-left: -120px;
-	margin-top: 0px;
+	margin-left: -100px;
+	margin-top: -20px;
 }
 
 .class_feuille3 {
 	transform: skewX(-2deg) skewY(2deg);
-	margin-left: -90px;
-	margin-top: 45px;
+	margin-left: -75px;
+	margin-top: 25px;
 }
 
 .class_feuille4 {
 	transform: skewX(-15deg) skewY(15deg);
-	margin-left: -180px;
-	margin-top: 180px;
+	margin-left: -135px;
+	margin-top: 115px;
 
 }
 
-.class_feuille1:hover, .class_feuille2:hover, .class_feuille3:hover, .class_feuille4:hover { 	
+.class_feuille5 {
+	transform: skewX(1deg) skewY(-1deg);
+	margin-left: 100px;
+	margin-top: -20px;
+}
+
+.class_feuille1:hover, .class_feuille2:hover, .class_feuille3:hover, .class_feuille4:hover, .class_feuille5:hover { 	
 	border: 5px solid red;
 	color: red;
 	
