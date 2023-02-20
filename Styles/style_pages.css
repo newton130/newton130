@@ -1,0 +1,51 @@
+/*----------------------------------*/
+/* Fichier style CSS pour les pages */
+/*----------------------------------*/
+
+body {
+	/* font-family: "Arial", sans-serif; */
+	/* font-size: 1.2em; */
+	/* background-color: rgb(235, 245, 251); */
+	/* margin: 30px; */
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+footer p {
+	border-top: 2px solid rgb(50, 150, 220);
+	font-size: 0.5em;
+	padding-top: 0.5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+
+/*---------------------------------------------------*/
+
+.class_titre_page {
+	border-bottom: 2px solid rgb(50, 150, 220);
+}
+
+.class_zone_page {
+	/* background-color: rgb( 133, 193, 233 ); */
+	background-color: rgb( 143, 203, 243 );
+	border-radius: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.class_image_biblio {
+	background-image: url("../Images/bibliotheque_grand.png");
+	background-attachment: fixed;
+	height: 300px;
+	border-radius: 20px;
+}
