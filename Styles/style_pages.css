@@ -12,7 +12,7 @@ body {
 }
 
 footer p {
-	border-top: 2px solid rgb(50, 150, 220);
+	border-top: 1px solid rgb(50, 150, 220);
 	font-size: 0.5em;
 	padding-top: 0.5em;
 }
@@ -28,19 +28,20 @@ a:hover {
 /*---------------------------------------------------*/
 
 .class_titre_page {
-	border-bottom: 2px solid rgb(50, 150, 220);
+	border-bottom: 1px solid rgb(50, 150, 220);
 }
 
 .class_zone_page {
 	/* background-color: rgb( 133, 193, 233 ); */
-	background-color: rgb( 143, 203, 243 );
+	/* background-color: rgb( 143, 203, 243 ); */
+	border-left: 3px solid rgb(50, 150, 220);
 	border-radius: 20px;
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin-top: 2em;
+	margin-bottom: 2em;
 	padding-left: 30px;
 	padding-right: 30px;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 }
 
 .class_image_biblio {
@@ -48,4 +49,22 @@ a:hover {
 	background-attachment: fixed;
 	height: 300px;
 	border-radius: 20px;
+}
+
+.class_division_zone_row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/* align-items: center; */
+}
+
+.class_division_zone_column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 700px;
+}
+
+.class_sous_division {
+	width: 50%;
 }
