@@ -11,12 +11,6 @@ body {
 	margin-right: 15%;
 }
 
-footer p {
-	border-top: 1px solid rgb(50, 150, 220);
-	font-size: 0.5em;
-	padding-top: 0.5em;
-}
-
 a {
 	text-decoration: none;
 }
@@ -42,13 +36,6 @@ a:hover {
 	padding-right: 30px;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
-}
-
-.class_image_biblio {
-	background-image: url("../Images/bibliotheque_grand.png");
-	background-attachment: fixed;
-	height: 300px;
-	border-radius: 20px;
 }
 
 .class_division_zone_row {

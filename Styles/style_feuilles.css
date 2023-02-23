@@ -20,22 +20,9 @@
 	margin-top: 100px;
 }
 
-.class_feuille1, .class_feuille2, .class_feuille3, .class_feuille4 {
+.class_feuille1, .class_feuille2, .class_feuille3, .class_feuille4, .class_feuille5 {
 	
 	border: 5px solid rgb(234, 234, 234);
-	background-image: url("../Images/cahier.jpg");
-	width: 207px;
-	height: 357px;
-	padding-left: 30px;
-	border-radius: 5px;
-	box-shadow: 7px 7px 7px rgb(50, 50, 50);
-	color: rgb(21, 67, 96);
-}
-
-.class_feuille5 {
-	
-	border: 5px solid rgb(234, 234, 234);
-	background-image: url("../Images/CV_mini.jpg");
 	width: 207px;
 	height: 357px;
 	padding-left: 30px;
@@ -45,24 +32,28 @@
 }
 
 .class_feuille1 {
+	background-image: url("../Images/cahier.jpg");
 	transform: skewX(10deg) skewY(-10deg);
 	margin-left: 0px;
 	margin-top: 55px;
 }
 
 .class_feuille2 {
+	background-image: url("../Images/cahier.jpg");
 	transform: skewX(5deg) skewY(-5deg);
 	margin-left: -100px;
 	margin-top: -20px;
 }
 
 .class_feuille3 {
+	background-image: url("../Images/cahier.jpg");
 	transform: skewX(-2deg) skewY(2deg);
 	margin-left: -75px;
 	margin-top: 25px;
 }
 
 .class_feuille4 {
+	background-image: url("../Images/cahier.jpg");
 	transform: skewX(-15deg) skewY(15deg);
 	margin-left: -135px;
 	margin-top: 115px;
@@ -70,6 +61,7 @@
 }
 
 .class_feuille5 {
+	background-image: url("../Images/CV_mini.jpg");
 	transform: skewX(1deg) skewY(-1deg);
 	margin-left: 100px;
 	margin-top: -20px;

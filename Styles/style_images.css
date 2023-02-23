@@ -1,0 +1,78 @@
+/*-----------------------------------*/
+/* Fichier style CSS pour les images */
+/*-----------------------------------*/
+
+.class_image_biblio {
+	background-image: url("../Images/bibliotheque_grand.png");
+	background-attachment: fixed;
+	height: 500px;
+	border-radius: 20px;
+}
+
+.class_image_polytech {
+	background-image: url("../Images/logo_polytech.png");
+	height: 218px;
+	width: 314px;
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 60px;
+	box-shadow: 5px 5px 5px grey;
+	
+}
+
+.class_image_polytech_galilee {
+	background-image: url("../Images/polytech_galilee.jpg");
+	height: 278px;
+	width: 702px;
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 60px;
+	box-shadow: 5px 5px 5px grey;
+	
+}
+
+.class_image_logoTS {
+	background-image: url("../Images/logoTS.jpeg");
+	height: 132px;
+	width: 408px;
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 60px;
+	box-shadow: 5px 5px 5px grey;	
+}
+
+.class_image_rhapsody {
+	background-image: url("../Images/rhapsody.png");
+	height: 357px;
+	width: 634px;
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	box-shadow: 5px 5px 5px grey;	
+}
+
+.class_image_dng {
+	background-image: url("../Images/dng.png");
+	height: 294px;
+	width: 648px;
+	border-radius: 20px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	box-shadow: 5px 5px 5px grey;	
+}
+
+.class_image_etoiles{
+	border: 50px solid black;
+	background-image: url('../Images/img_cieletoile.jpg');
+	background-attachment: fixed;
+	height: 500px;
+	width: 500px;
+	border-radius: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}

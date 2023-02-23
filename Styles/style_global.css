@@ -10,5 +10,7 @@ body {
 }
 
 footer p {
+	border-top: 1px solid rgb(50, 150, 220);
 	font-size: 0.5em;
+	padding-top: 0.5em;
 }
