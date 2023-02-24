@@ -76,3 +76,15 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.class_image_jupiter{
+	border: 50px solid black;
+	background-image: url('../Images/jupiter.png');
+	background-attachment: fixed;
+	height: 500px;
+	width: 500px;
+	border-radius: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	color: rgb(235, 245, 251);
+}
