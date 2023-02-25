@@ -88,3 +88,18 @@
 	margin-right: auto;
 	color: rgb(235, 245, 251);
 }
+
+.class_image_ariane {
+	/* background-image: url("../Images/ariane5.png"); */
+	/* height: 756px; */
+	/* width: 1344px; */
+	border: 1px solid white;
+	height: 70vh;
+	width: 70vw;
+	border-radius: 20px;
+}
+
+img {
+	width : 100%;
+	height: 100%; 
+}
